@@ -1,0 +1,213 @@
+html body {
+  background-color: black;
+}
+.chart {
+  padding: 20px;
+  width: 100%;
+}
+#container1 {
+  height: 100vh;
+  padding-top: 20px;
+}
+#profilewrap {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.header {
+  padding-top: 20px;
+  text-align: left;
+  /* background-color: purple; */
+  height: 70px;
+  width: auto;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+#line1 {
+  height: 25px;
+  /* background-color: aqua; */
+  border-bottom: 1px solid rgb(29, 161, 242);
+}
+ul {
+  list-style: none;
+  padding: 0px;
+}
+ul li {
+  margin-bottom: 15px;
+}
+ul li a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+}
+ul li a:hover {
+  color: white;
+  background-color: #181b1f;
+  padding: 10px;
+  padding-right: 20px;
+  border-radius: 20px;
+  border-color: grey;
+}
+#nav {
+  padding-top: 25px;
+  justify-content: center;
+  text-align: center;
+  /* border-right: 1px solid grey; */
+  /* background-color: red; */
+  /* height: 100%; */
+  margin: 0px;
+}
+#content {
+  padding-top: 25px;
+  height: 100%;
+  margin: 0px;
+  text-align: justify;
+  /* border-left: 1px solid grey; */
+  /* background-color: blue; */
+}
+.judul2 span {
+  padding-left: 10px;
+  font-size: 2rem;
+}
+.sapa {
+  margin: 0px;
+  padding-left: 0px;
+  background-color: aliceblue;
+}
+.name {
+  font-weight: 2rem;
+  font-weight: bold;
+  color: #dc3545;
+}
+.declare {
+  font-size: 2rem;
+  /* font-weight: bold; */
+  padding-left: 10px;
+  color: #0d6efd;
+}
+.document-box {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+.iconbox {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+  width: fit-content;
+  height: 50px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.iconbox:hover {
+  color: white;
+  background-color: #181b1f;
+}
+#icondepan {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+#iconback {
+  font-size: 1rem;
+  margin-left: 60px;
+}
+#pinned {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.judulcontext {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+.card {
+  width: 18rem;
+  height: fit-content;
+  background-color: #181b1f;
+  color: white;
+}
+.text {
+  width: 200%;
+}
+.card-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.card-text {
+  font-size: 0.9rem;
+}
+.aboutwrap {
+  display: flex;
+  justify-content: space-evenly;
+  /* background-color: red; */
+}
+.socialmedialink a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+.pic {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  /* background-color: purple; */
+}
+.pic img {
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.baricon {
+  height: 5%;
+  width: 5%;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.cardicon {
+  width: 10%;
+}
+.skillwrap {
+  border: 1px solid gray;
+  border-radius: 1%;
+}
+.skillwrap span {
+  padding-left: 10px;
+}
+@media only screen and (max-width: 540px) {
+  .skillwrap span {
+    font-size: small;
+  }
+  .judul2 {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-direction: column;
+  }
+  .iconbox {
+    margin-right: 10px;
+    justify-content: space-between;
+  }
+  .card {
+    width: 80%;
+    margin-bottom: 20px;
+    /* background-color: #0d6efd; */
+  }
+  .aboutwrap {
+    padding: 10px;
+    flex-direction: column-reverse;
+  }
+  .text {
+    width: 100%;
+  }
+}
